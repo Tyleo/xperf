@@ -1,0 +1,53 @@
+﻿Build started 6/12/2014 11:08:32 PM.
+     1>Project "C:\Users\Tyler\Desktop\xperf\xperfDemo\xperfDemo.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\Tyler\Desktop\xperf\ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\tyler\desktop\xperf\xperf\xperf.h(70): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\time.inl(112) : see declaration of 'localtime'
+                 c:\users\tyler\desktop\xperf\xperfdemo\main.cpp(33) : see reference to function template instantiation 'TTime xxx::PrettyMultiTest<std::chrono::nanoseconds,MapTest::<lambda_1bf268715fe1c0971d9da437f1ba6426>>(TFunction,size_t,std::string)' being compiled
+                 with
+                 [
+                     TTime=std::chrono::nanoseconds
+         ,            TFunction=MapTest::<lambda_1bf268715fe1c0971d9da437f1ba6426>
+                 ]
+                 c:\users\tyler\desktop\xperf\xperfdemo\main.cpp(84) : see reference to function template instantiation 'void MapTest<uint32_t>(std::vector<std::pair<TKey,uint32_t>,std::allocator<_Ty>> &)' being compiled
+                 with
+                 [
+                     _Ty=std::pair<TKey,uint32_t>
+                 ]
+     1>c:\users\tyler\desktop\xperf\xperf\xperf.h(71): warning C4996: 'asctime': This function or variable may be unsafe. Consider using asctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\time.h(174) : see declaration of 'asctime'
+     1>c:\users\tyler\desktop\xperf\xperf\xperf.h(79): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\time.inl(112) : see declaration of 'localtime'
+     1>c:\users\tyler\desktop\xperf\xperf\xperf.h(80): warning C4996: 'asctime': This function or variable may be unsafe. Consider using asctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\time.h(174) : see declaration of 'asctime'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\time.inl(112) : see declaration of 'localtime'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\time.h(174) : see declaration of 'asctime'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\time.inl(112) : see declaration of 'localtime'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\time.h(174) : see declaration of 'asctime'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\time.inl(112) : see declaration of 'localtime'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\time.h(174) : see declaration of 'asctime'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\time.inl(112) : see declaration of 'localtime'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\time.h(174) : see declaration of 'asctime'
+     1>c:\users\tyler\desktop\xperf\xperf\xperf.h(26): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\tyler\desktop\xperf\xperf\xperf.h(76) : see reference to function template instantiation 'TTime xxx::MultiTest<TTime,TFunction>(TFunction,size_t)' being compiled
+                 with
+                 [
+                     TTime=std::chrono::nanoseconds
+         ,            TFunction=MapTest::<lambda_1bf268715fe1c0971d9da437f1ba6426>
+                 ]
+                 c:\users\tyler\desktop\xperf\xperfdemo\main.cpp(33) : see reference to function template instantiation 'TTime xxx::PrettyMultiTest<std::chrono::nanoseconds,MapTest::<lambda_1bf268715fe1c0971d9da437f1ba6426>>(TFunction,size_t,std::string)' being compiled
+                 with
+                 [
+                     TTime=std::chrono::nanoseconds
+         ,            TFunction=MapTest::<lambda_1bf268715fe1c0971d9da437f1ba6426>
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Tyler\Desktop\xperf\Debug\xperfDemo.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Tyler\Desktop\xperf\Debug\xperfDemo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Tyler\Desktop\xperf\Debug\xperfDemo.lib" /MACHINE:X86 Debug\main.obj
+         xperfDemo.vcxproj -> C:\Users\Tyler\Desktop\xperf\Debug\xperfDemo.exe
+     1>Done Building Project "C:\Users\Tyler\Desktop\xperf\xperfDemo\xperfDemo.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.81
